@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/tongzhigonggao/list",
+    "pages/tongzhigonggao/add-or-update",
+    "pages/tongzhigonggao/detail",
+    "pages/yuangong/list",
+    "pages/yuangong/add-or-update",
+    "pages/yuangong/detail",
+    "pages/bumenxinxi/list",
+    "pages/bumenxinxi/add-or-update",
+    "pages/bumenxinxi/detail",
+    "pages/zhiweixinxi/list",
+    "pages/zhiweixinxi/add-or-update",
+    "pages/zhiweixinxi/detail",
+    "pages/huiyijilu/list",
+    "pages/huiyijilu/add-or-update",
+    "pages/huiyijilu/detail",
+    "pages/daibanshixiang/list",
+    "pages/daibanshixiang/add-or-update",
+    "pages/daibanshixiang/detail",
+    "pages/gongzixinxi/list",
+    "pages/gongzixinxi/add-or-update",
+    "pages/gongzixinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "在线办公小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#82A39D",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tongzhigonggao/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "通知公告"
+      },
+      {
+        "pagePath": "pages/bumenxinxi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "部门信息"
+      },
+      {
+        "pagePath": "pages/huiyijilu/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "会议记录"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
